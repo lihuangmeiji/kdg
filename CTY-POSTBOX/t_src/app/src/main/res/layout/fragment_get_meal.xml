@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dip"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_cupboard_num"
+                style="@style/GetMealLabel"
+                android:background="@drawable/bg_get_meal_sure1"
+                android:paddingTop="5dip"
+                android:paddingBottom="5dip"
+                android:paddingLeft="30dip"
+                android:paddingRight="30dip"
+                android:text="柜门编号" />
+
+            <org.tabjin.myapplication.ui.widget.WheelView
+                android:id="@+id/wv_cupboard_picker1"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dip"
+                android:background="@color/white" />
+
+            <org.tabjin.myapplication.ui.widget.WheelView
+                android:id="@+id/wv_cupboard_picker2"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tv_cupboard_num"
+                android:layout_marginLeft="20dip"
+                android:background="@color/white" />
+
+            <org.tabjin.myapplication.ui.widget.WheelView
+                android:id="@+id/wv_cupboard_picker3"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tv_cupboard_num"
+                android:layout_marginLeft="20dip"
+                android:background="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="1"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dip"
+                    android:textSize="10sp"
+                    android:text="@string/kdg6"
+                    android:drawableBottom="@mipmap/savets"
+                    android:drawablePadding="3dip"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tail4_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_phone_tail4"
+                style="@style/GetMealLabel"
+                android:background="@drawable/bg_get_meal_sure1"
+                android:paddingTop="5dip"
+                android:paddingBottom="5dip"
+                android:paddingLeft="30dip"
+                android:paddingRight="30dip"
+                android:text="手机尾号" />
+
+            <TextView
+                android:id="@+id/tv_tail1"
+                style="@style/GetMealTailInput"
+                android:layout_marginLeft="20dip" />
+
+            <TextView
+                android:id="@+id/tv_tail2"
+                style="@style/GetMealTailInput"
+                android:layout_marginLeft="10dip" />
+
+            <TextView
+                android:id="@+id/tv_tail3"
+                style="@style/GetMealTailInput"
+                android:layout_marginLeft="10dip" />
+
+            <TextView
+                android:id="@+id/tv_tail4"
+                style="@style/GetMealTailInput"
+                android:layout_marginLeft="10dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip">
+            <TextView
+                style="@style/GetMealLabel"
+                android:background="@drawable/bg_get_meal_sure1"
+                android:paddingTop="5dip"
+                android:paddingBottom="5dip"
+                android:paddingLeft="30dip"
+                android:paddingRight="30dip"
+                android:visibility="invisible"
+                android:text="手机尾号" />
+            <Button
+                android:id="@+id/btn_sure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_get_meal_sure"
+                android:text="确认"
+                android:layout_marginLeft="20dip"
+                android:paddingTop="5dip"
+                android:paddingBottom="5dip"
+                android:paddingLeft="40dip"
+                android:layout_centerInParent="true"
+                android:paddingRight="40dip"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/btn_sure"
+                android:layout_marginLeft="15dip"
+                android:text="@string/get_meal_error"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <include
+        layout="@layout/num_keyboard"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50dip" />
+
+</LinearLayout>

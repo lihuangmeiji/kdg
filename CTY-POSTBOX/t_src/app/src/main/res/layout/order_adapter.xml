@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_postmanMobile"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/kdg2"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/customerMobile"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_width="0dip"
+        android:gravity="center"
+        android:text="@string/kdg2"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_taked_time"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/kdg2"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_gui_no"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/kdg2"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_wh"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_width="0dip"
+        android:gravity="center"
+        android:text="@string/kdg2"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_status"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_width="0dip"
+        android:gravity="center"
+        android:text="@string/kdg2"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+</LinearLayout>

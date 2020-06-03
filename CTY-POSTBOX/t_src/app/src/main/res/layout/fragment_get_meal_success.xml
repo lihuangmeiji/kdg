@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dip">
+            <TextView
+                android:id="@+id/tv_guinobt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="柜门编号"
+                android:textColor="@color/iv_get"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dip"
+                android:layout_marginTop="2dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@+id/tv_guinobt"
+                android:layout_alignRight="@+id/tv_guinobt"
+                android:background="@color/iv_get" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_cupboard_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="A3"
+            android:textColor="@color/colorPrimary"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dip"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_is_open"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:src="@mipmap/getmealsuccess"/>
+            <TextView
+                android:id="@+id/tv_is_open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="柜门已开！"
+                android:layout_marginLeft="20dip"
+                android:textColor="@color/keyboardNum"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="取餐后请关闭柜门"
+                android:textColor="#101010"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:text="12s"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

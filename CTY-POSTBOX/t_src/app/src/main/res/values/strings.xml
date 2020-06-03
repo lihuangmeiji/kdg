@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">领鲜智能柜</string>
+    <string name="put_hint1">快递员请使用微信扫码登陆</string>
+    <string name="put_hint2">在手机端进行存餐操作</string>
+    <string name="thanks">感谢您的使用！ \n祝您用餐愉快！</string>
+    <string name="goon_get_meal">继续取餐</string>
+    <string name="go_home">返回首页</string>
+    <string name="please_close_door">请关闭A3柜门</string>
+    <string name="get_meal">取餐</string>
+    <string name="save_meal">存餐</string>
+    <string name="get_meal_error">取餐信息有误！</string>
+    <string name="kdg1">东城</string>
+    <string name="kdg2">品元</string>
+    <string name="kdg3">2019-09-05 07:28:35</string>
+    <string name="kdg4">杭州华星</string>
+    <string name="kdg5">客服电话:400-6662-981</string>
+    <string name="kdg6">上下滑动选取柜号</string>
+    <string name="kdg7">骑手请扫码</string>
+    <string name="kdg8">在手机端操作</string>
+    <string name="kdg9">扫码注册</string>
+    <string name="kdg10">有领鲜号</string>
+    <string name="kdg11">输入领鲜号并确认尾号</string>
+    <string name="kdg12">无领鲜号</string>
+    <string name="kdg13">输入四位尾号</string>
+    <string name="kdg14">开柜存餐</string>
+    <string name="kdg15">关闭柜门</string>
+    <string name="kdg16">通知客户</string>
+    <string name="kdg17">微信扫码</string>
+    <string name="kdg18">手机取餐</string>
+    <string name="kdg19">使用柜端取餐</string>
+</resources>

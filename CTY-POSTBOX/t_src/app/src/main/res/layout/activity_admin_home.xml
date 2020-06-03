@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.tabjin.myapplication.ui.admin.AdminHomeActivity">
+    <include
+        layout="@layout/base_fragment_title"></include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tv_function1"
+            android:layout_width="160dip"
+            android:layout_height="50dip"
+            android:background="@drawable/bg_get_meal_sure"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="箱门控制及检测"/>
+
+        <TextView
+            android:id="@+id/tv_function2"
+            android:layout_width="160dip"
+            android:layout_height="50dip"
+            android:background="@drawable/bg_get_meal_sure"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="20dip"
+            android:text="订单记录"/>
+
+        <TextView
+            android:id="@+id/tv_function3"
+            android:layout_width="160dip"
+            android:layout_height="50dip"
+            android:background="@drawable/bg_get_meal_sure"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="20dip"
+            android:text="软件日志"/>
+
+        <TextView
+            android:id="@+id/tv_function4"
+            android:layout_width="160dip"
+            android:layout_height="50dip"
+            android:background="@drawable/bg_get_meal_sure"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="20dip"
+            android:text="手动重启"/>
+    </LinearLayout>
+</LinearLayout>

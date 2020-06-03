@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--中间fragment title height-->
+    <dimen name="title_height">55dip</dimen>
+    <!--顶部大图片的高度-->
+    <dimen name="top_iv_height">550px</dimen>
+    <!--标题右边textview的padding-->
+    <dimen name="title_right_padding">46px</dimen>
+
+
+    <!--字体大小-->
+    <dimen name="title_text_size">24sp</dimen>
+    <dimen name="iv_top_height">550px</dimen>
+    <dimen name="content_margin_top">31px</dimen>
+</resources>

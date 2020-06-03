@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F8931F</color>
+    <color name="colorPrimaryDark">#F8931F</color>
+    <color name="colorAccent">#E51C23</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="home_date">#222021</color>
+    <color name="black">#000000</color>
+
+    <color name="t50white">#77ffffff</color>
+    <color name="t00white">#00ffffff</color>
+
+    <color name="keyboardNum">#101010</color>
+    <color name="bgAA">#AAAAAA</color>
+    <color name="bgeb">#EBEBEB</color>
+    <color name="bgGoHome">#C8C8C8</color>
+    <color name="bgF8">#F8F8F8</color>
+
+    <color name="iv_put">#2A839A</color>
+    <color name="iv_get">#F79A17</color>
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dip">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kdg17"
+                android:textColor="@color/iv_get"
+                android:textStyle="bold"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="@string/kdg18"
+                android:textStyle="bold"
+                android:textColor="@color/iv_get"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dip"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/putselectzs" />
+
+        <ImageView
+            android:id="@+id/iv_takeimg"
+            android:layout_width="140dip"
+            android:layout_height="140dip"
+            android:layout_marginLeft="50dip"
+            android:background="@color/bgGoHome"
+            android:scaleType="centerCrop"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_imgpath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:textColor="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kdg17"
+                android:textColor="@color/iv_get"
+                android:visibility="invisible"
+                android:textStyle="bold"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="@string/kdg18"
+                android:textStyle="bold"
+                android:textColor="@color/iv_get"
+                android:visibility="invisible"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dip"
+            android:scaleType="centerCrop"
+            android:visibility="invisible"
+            android:src="@mipmap/putselectzs" />
+
+        <TextView
+            android:id="@+id/tv_takeapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="@string/kdg19"
+            android:gravity="center"
+            android:layout_marginLeft="50dip"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_get_meal_sure"
+            android:visibility="gone"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>
